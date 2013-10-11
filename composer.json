@@ -29,11 +29,11 @@
 			"Localgod\\Silex\\" : "src"
 		}
 	},
-	"minimum-stability" : "dev",
+	"minimum-stability" : "stable",
 	"support" : {
-		"source" : "https://github.com/localgod/console-color",
-		"issues" : "https://github.com/localgod/console-color/issues",
-		"wiki" : "https://github.com/localgod/console-color/wiki"
+		"source" : "https://github.com/localgod/PDOServiceProvider",
+		"issues" : "https://github.com/localgod/PDOServiceProvider/issues",
+		"wiki" : "https://github.com/localgod/PDOServiceProvider/wiki"
 	},
 	"config" : {
 		"bin-dir" : "bin/",
