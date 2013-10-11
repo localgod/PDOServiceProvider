@@ -7,13 +7,11 @@
 	<import file="${targets.dir}/phploc.xml" />
 	<import file="${targets.dir}/phpmd.xml" />
 	<import file="${targets.dir}/phpunit.xml" />
-	<import file="${targets.dir}/phpdoc.xml" />
 	<import file="${targets.dir}/tabtospace.xml" />
-	<import file="${targets.dir}/package.xml" />
 	
 	<property name="package.version" value="master" />
 
-	<target name="all" depends="tabtospace,phplint,phpcpd, phpcs, phploc, phpunit, phpmd, pdepend, phpdoc" />
+	<target name="all" depends="tabtospace,phplint,phpcpd, phpcs, phploc, phpunit, phpmd, pdepend" />
 	<target name="travis" depends="phpunit, phpmd, pdepend, phpcs" />
 	<target name="help">
 		<echo>
