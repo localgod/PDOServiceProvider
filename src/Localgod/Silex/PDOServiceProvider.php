@@ -47,7 +47,10 @@ class PDOServiceProvider implements ServiceProviderInterface
             
             $connOpts = isset($app['pdo.connection']) ? array_merge($options, $app['pdo.connection']) : $options;
             
-            $dsn = $connOpts['driver'] . ':host=' . $connOpts['host'] . ';dbname=' . $connOpts['name'] . ';port=' . $connOpts['port'];
+            $dsn = $connOpts['driver'] . 
+                   ':host=' . $connOpts['host'] . 
+                   ';dbname=' . $connOpts['name'] . 
+                   ';port=' . $connOpts['port'];
             $pdo = new PDO($dsn, $connOpts['user'], $connOpts['pass']);
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
