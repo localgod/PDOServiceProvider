@@ -22,7 +22,6 @@
 	},
 	"require-dev" : {
 		"phpunit/phpunit" : ">=3.7.27@stable",
-		"phpdocumentor/phpdocumentor" : ">=2.0.0b7",
 		"squizlabs/php_codesniffer" : ">=1.4.5@stable"
 	},
 	"autoload" : {
