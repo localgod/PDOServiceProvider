@@ -12,7 +12,8 @@
 	<property name="package.version" value="master" />
 
 	<target name="all" depends="tabtospace,phplint,phpcpd, phpcs, phploc, phpunit, phpmd, pdepend" />
-	<target name="travis" depends="phpunit, phpmd, pdepend, phpcs" />
+	<target name="build" depends="phpunit, phpmd, pdepend, phpcs" />
+	<target name="travis" depends="phpunit" />
 	<target name="help">
 		<echo>
 List of targets:
