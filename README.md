@@ -13,7 +13,7 @@ PDOServiceProvider requires php version 5.3.3 or higher.
 ## Installation
 Just add the following line to your required section in your composer.json file:
 
-```
+```json
 	"require" : {
 		"localgod/pdo-service-provider" : "1.0.0"
 	},
@@ -21,7 +21,8 @@ Just add the following line to your required section in your composer.json file:
 
 and add these line in your application:
 
-```
+```php
+<?php
 use PDOException;
 use Localgod\Silex\PDOServiceProvider;
 
@@ -39,4 +40,5 @@ use Localgod\Silex\PDOServiceProvider;
             file_put_contents($app['config']['pdo']['log'], $e->getMessage() . "\n", FILE_APPEND);
             die($app['config']['database']['user'] . " - CANNOT TALK TO DB!");
         }
+?>
 ```
