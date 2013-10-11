@@ -1,4 +1,7 @@
 [![Build Status](https://secure.travis-ci.org/localgod/PDOServiceProvider.png?branch=master)](http://travis-ci.org/localgod/PDOServiceProvider)
+
+[![Project Status](http://stillmaintained.com/localgod/PDOServiceProvider.png)](http://stillmaintained.com/localgod/PDOServiceProvider)
+
 # PDOServiceProvider
 
 ## Summary
