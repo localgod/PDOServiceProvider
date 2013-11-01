@@ -1,5 +1,6 @@
 [![Build Status](https://secure.travis-ci.org/localgod/PDOServiceProvider.png?branch=master)](http://travis-ci.org/localgod/PDOServiceProvider)
-
+[![Latest Stable Version](https://poser.pugx.org/localgod/pdo-service-provider/v/stable.png)](https://packagist.org/packages/localgod/pdo-service-provider)
+[![Total Downloads](https://poser.pugx.org/localgod/pdo-service-provider/downloads.png)](https://packagist.org/packages/localgod/pdo-service-provider)
 [![Project Status](http://stillmaintained.com/localgod/PDOServiceProvider.png)](http://stillmaintained.com/localgod/PDOServiceProvider)
 
 # PDOServiceProvider
