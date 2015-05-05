@@ -14,7 +14,7 @@
 	<import file="${targets.dir}/package.xml" />
 
 	<target name="all" depends="phplint,phpcs,phploc,phpmd,phpdcd,tabtospace,phpdcd,phpdoc,phpunit,phpcpd" />
-	<target name="travis" depends="phpunit, phpcs, phpdoc" />
+	<target name="travis" depends="phpunit, phpdoc" />
 	<target name="help">
 		<echo>
 List of targets:
@@ -32,7 +32,7 @@ List of targets:
     tabtospace  Converts tabs to space in all project files
   Combos:
     all         Runs all targets
-    travis      Runs relevant targets on the travis build server
+    travis      Runs relevant targets on the travis build service
     </echo>
 	</target>
 </project>
