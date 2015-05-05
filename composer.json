@@ -13,16 +13,17 @@
 		"Silex PDO"
 	],
 	"homepage" : "https://github.com/localgod/PDOServiceProvider",
-	"license" : [
-		"MIT"
-	],
+	"license" : "MIT",
 	"require" : {
 		"php" : ">=5.3.3",
-		"silex/silex" : ">=1.1.1@stable"
+		"silex/silex" : ">=1.2.4@stable"
 	},
 	"require-dev" : {
-		"phpunit/phpunit" : ">=3.7.27@stable",
-		"squizlabs/php_codesniffer" : ">=1.4.5@stable"
+		"ext-xsl" : "*",
+		"phpunit/phpunit" : ">=4.6.6@stable",
+		"squizlabs/php_codesniffer" : ">=2.3.2@stable",
+		"phpdocumentor/phpdocumentor" : ">=2.8.2@stable",
+		"sebastian/phpdcd" : ">=1.0.2@stable"
 	},
 	"autoload" : {
 		"psr-0" : {

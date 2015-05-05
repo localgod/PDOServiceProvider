@@ -1,6 +1,6 @@
 <project>
 	<path id="checkphp.fileset">
-		<fileset dir="${basedir}/src/">
+		<fileset dir="${basedir}/src">
 			<include name="**/*.php" />
 		</fileset>
 	</path>

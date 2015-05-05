@@ -1,6 +1,6 @@
 <?php
 /**
- * Aika test bootstrap file
+ * PDOServiceProvider test bootstrap file
  *
  * PHP Version 5.3.3
  *

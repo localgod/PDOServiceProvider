@@ -1,35 +1,38 @@
-<project default="help" name="PDOServiceProvider">
+<project default="help">
 	<import file="${basedir}/build/common.xml" />
 	<import file="${targets.dir}/pdepend.xml" />
+	<import file="${targets.dir}/phpcb.xml" />
 	<import file="${targets.dir}/phpcpd.xml" />
 	<import file="${targets.dir}/phpcs.xml" />
+	<import file="${targets.dir}/phpdcd.xml" />
 	<import file="${targets.dir}/phplint.xml" />
 	<import file="${targets.dir}/phploc.xml" />
 	<import file="${targets.dir}/phpmd.xml" />
 	<import file="${targets.dir}/phpunit.xml" />
+	<import file="${targets.dir}/phpdoc.xml" />
 	<import file="${targets.dir}/tabtospace.xml" />
-	
-	<property name="package.version" value="master" />
+	<import file="${targets.dir}/package.xml" />
 
-	<target name="all" depends="tabtospace,phplint,phpcpd, phpcs, phploc, phpunit, phpmd, pdepend" />
-	<target name="build" depends="phpunit, phpmd, pdepend, phpcs" />
-	<target name="travis" depends="phpunit" />
+	<target name="all" depends="phplint,phpcs,phploc,phpmd,phpdcd,tabtospace,phpdcd,phpdoc,phpunit,phpcpd" />
+	<target name="travis" depends="phpunit, phpcs, phpdoc" />
 	<target name="help">
 		<echo>
 List of targets:
   Individual:
-    phplint    (check for php syntax errors)
-    pdepend    (Check php class dependencies)
-    phpcpd     (php copy/paste detection)
-    phpcs      (php checkstyle)
-    phpdoc     (php api documentation)
-    phploc     (php lines of code)
-    phpmd      (php mess detection)
-    phpunit    (php unittesting)
-    tabtospace (convert tabs to space)
+    pdepend     Generates software Metrics for PHP 
+    phpcb       Generates a browsable PHP code where sections with violations are highlighted.
+    phpcpd      Copy/Paste Detector
+    phpcs       Detects violations of a defined set of coding standards
+    phpdcd      Dead Code Detector for PHP code.
+    phpdoc      phpDocumentor generates documentation from your source code.
+    phplint     Check that you code actually compiles
+    phploc      A tool for quickly measuring the size of a project
+    phpmd       PHP Mess Detector
+    phpunit     Unittesting for php
+    tabtospace  Converts tabs to space in all project files
   Combos:
-    all
-	build
+    all         Runs all targets
+    travis      Runs relevant targets on the travis build server
     </echo>
 	</target>
 </project>

@@ -1,7 +1,7 @@
 <project>
     <!-- Comma separated list of folders to include -->
     <property name="tab-width" value="4" />
-    <property name="originals" value="${basedir}/src/" />
+    <property name="originals" value="${basedir}/src" />
 
     <!-- ================================= target: tabtospace =============================== -->
     <target name="tabtospace" depends=""

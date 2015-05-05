@@ -1,6 +1,6 @@
 <project>
 	<!-- Comma separated list of folders to include -->
-	<property name="phpmd.include" value="${basedir}/src/" />
+	<property name="phpmd.include" value="${basedir}/src" />
 	<!-- Comma separated list of files to exclude -->
 	<property name="phpmd.exclude" value="" />
 	<!-- Path to rules file -->

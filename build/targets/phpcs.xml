@@ -1,10 +1,10 @@
 <project>
 	<!-- Space separated list of folders to include -->
-	<property name="phpcs.include" value="${basedir}/src/" />
+	<property name="phpcs.include" value="${basedir}/src" />
 	<!-- Comma separated list of files to exclude -->
 	<property name="phpcs.exclude" value="web" />
 	<!-- Coding standard to use -->
-	<property name="phpcs.standard" value="${basedir}/build/rules/codingstandard/PSR" />
+	<property name="phpcs.standard" value="PSR2" />
 	<!-- Report schema to use -->
 	<property name="phpcs.report" value="${basedir}/build/rules/checkstylereport/" />
 	<!-- Should we fail the build if coding standart violations are detected? -->

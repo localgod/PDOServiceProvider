@@ -1,6 +1,6 @@
 <project>
 	<!-- Comma separated list of folders to include -->
-	<property name="phpdepend.include" value="${basedir}/src/" />
+	<property name="phpdepend.include" value="${basedir}/src" />
 	<!-- Comma separated list of files to exclude -->
 	<property name="phpdepend.exclude" value="" />
 	<!-- Should we fail the build if pdepend generation fails? -->

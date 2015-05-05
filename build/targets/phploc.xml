@@ -1,6 +1,6 @@
 <project>
 	<!-- Comma separated list of folders to include -->
-	<property name="phploc.include" value="${basedir}/src/" />
+	<property name="phploc.include" value="${basedir}/src" />
 	<!-- Comma separated list of files to exclude -->
 	<property name="phploc.exclude" value="" />
 
