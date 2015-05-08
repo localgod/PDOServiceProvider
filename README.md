@@ -2,6 +2,7 @@
 [![Latest Stable Version](https://poser.pugx.org/localgod/pdo-service-provider/v/stable.png)](https://packagist.org/packages/localgod/pdo-service-provider)
 [![Total Downloads](https://poser.pugx.org/localgod/pdo-service-provider/downloads.png)](https://packagist.org/packages/localgod/pdo-service-provider)
 [![Project Status](http://stillmaintained.com/localgod/PDOServiceProvider.png)](http://stillmaintained.com/localgod/PDOServiceProvider)
+[![Dependency Status](https://www.versioneye.com/user/projects/554c76c15d47f2511d000171/badge.svg?style=flat)](https://www.versioneye.com/user/projects/554c76c15d47f2511d000171)
 
 # PDOServiceProvider
 
